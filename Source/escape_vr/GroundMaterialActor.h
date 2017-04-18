@@ -14,8 +14,11 @@ public:
 	// Sets default values for this actor's properties
 	AGroundMaterialActor();
 
-	UPROPERTY(EditAnywhere)
-	UMaterialInterface* Material;
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Switch Components")
+	UMaterialInstance* fireMaterial;
+
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Switch Components")
+	UStaticMeshComponent* fireMesh;
 
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;

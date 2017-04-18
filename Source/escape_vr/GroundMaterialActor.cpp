@@ -28,21 +28,6 @@ void AGroundMaterialActor::BeginPlay()
 	NewScale.X = 0.1f;
 	NewScale.Y = 0.1f;
 	NewScale.Z = 0.1f;
-
-
-//	UStaticMeshComponent* MeshComponent = CreateDefaultSubobject< UStaticMeshComponent >(TEXT("MeshComponent"));
-//	MeshComponent->SetMobility(EComponentMobility::Movable);
-//	MeshComponent->SetStaticMesh(Mesh);
-//
-//	//create dynamic material anywhere u like, Constructor or anywhere .
-
-
-	//UMaterialInstanceDynamic* DynamicMaterial = UMaterialInstanceDynamic::Create(Material, this);
-	//SphereComponent->
-//	//set paramater with Set***ParamaterValue
-//	DynamicMaterial->SetVectorParameterValue(FName("Color"),
-//		FLinearColor(100.0f, 0.0f, 0.0f));
-//	MeshComponent->SetMaterial(0, DynamicMaterial);	
 	
 }
 
@@ -77,7 +62,6 @@ void AGroundMaterialActor::Tick( float DeltaTime )
 	SetActorLocation(NewLocation);
 	SetActorScale3D(NewScale);
 
-	
 
 }
 
