@@ -42,4 +42,7 @@ public:
 	
 	UFUNCTION(BlueprintCallable, Category="groundmaterial")
 	void SoundDelayTimer();
+
+	UFUNCTION(BlueprintCallable, Category = "groundmaterial")
+	void ReallyLongTimer();
 };

@@ -67,3 +67,8 @@ void AGroundMaterialActor::SoundDelayTimer()
 {
 	CountdownTime = 40;
 }
+
+void AGroundMaterialActor::ReallyLongTimer()
+{
+	CountdownTime = 100000;
+}
