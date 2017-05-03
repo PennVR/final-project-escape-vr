@@ -2,7 +2,7 @@
 
 Edward Cai, Alexander Chan, Kelly Tan, Henry Zhu
 
-YouTube link - 
+YouTube link - https://youtu.be/GOWEFWnF0WA
 
 ### Techniques used, and why those techniques.
 
