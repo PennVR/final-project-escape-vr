@@ -19,6 +19,8 @@ AGroundMaterialActor::AGroundMaterialActor()
 	commonSounds.push_back(tmp2.Object);
 	ConstructorHelpers::FObjectFinder<USoundWave> tmp3(TEXT("/Game/Audio/Table.Table"));
 	commonSounds.push_back(tmp3.Object);
+	ConstructorHelpers::FObjectFinder<USoundWave> tmp4(TEXT("/Game/Audio/Glass_Shards.Glass_Shards"));
+	commonSounds.push_back(tmp4.Object);
 
 	auto engine = std::default_random_engine{};
 	std::shuffle(std::begin(commonSounds), std::end(commonSounds), engine);
